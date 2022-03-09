@@ -4,6 +4,9 @@ spring:
       host: localhost
       port: 27017
       database: bookstore
+  mvc:
+    pathmatch:
+       matching-strategy: ant-path-matcher
 jwt:
   secret: SecretKey
   expirationMs: 86400000
