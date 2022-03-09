@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bookstore
+jwt:
+  secret: SecretKey
+  expirationMs: 86400000
